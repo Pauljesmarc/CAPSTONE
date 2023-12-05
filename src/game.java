@@ -11,6 +11,7 @@ public class game extends JFrame{
     private JTextPane textPane1;
     private JTextPane textPane2;
     private JPanel p1Panel;
+
     game(){
         setContentPane(gamePanel);
         battleScreen bs = new battleScreen();
